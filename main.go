@@ -1,3 +1,5 @@
+package main
+
 func main() {
 	http.HandleFunc("/blue", blueHandler)
 	http.HandleFunc("/red", redHandler)
