@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: production-container
-        image: gcr.io/qwiklabs-gcp-02-5392152a651e/sample-app:v1.0
+        image: gcr.io/cloud-builders/docker
         ports:
         - containerPort: 8080
